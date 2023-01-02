@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600;700&display=swap');
 
 .light {
-  --mainColor: #3ff1d3;
+  --mainColor: #40ddc2;
   --hoverColor: #349d8c;
-  --backgroundColor: #dffdf8;
+  --backgroundColor: #b7fff3;
   --darkOne: #312f3a;
   --darkTwo: #45424b;
   --lightOne: #919191;
@@ -14,6 +14,16 @@
   --mainColor: #4b5dfe;
   --hoverColor: #4751b3;
   --backgroundColor: #6877fd;
+  --darkOne: #f3f3f3;
+  --darkTwo: #fff;
+  --lightOne: #ccc;
+  --lightTwo: #e7e3e3;
+}
+
+.other {
+  --mainColor: #ed4a3f;
+  --hoverColor: #9a2c13;
+  --backgroundColor: #fc821f;
   --darkOne: #f3f3f3;
   --darkTwo: #fff;
   --lightOne: #ccc;
@@ -50,7 +60,7 @@ a {
   padding: 1.7rem 0 2rem;
   width: 100%;
   min-height: 60vh;
-  overflow: hidden;
+  /* overflow: hidden; */ 
   background-color: var(--backgroundColor);
   display: flex;
   flex-direction: column;
